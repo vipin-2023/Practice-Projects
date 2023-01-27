@@ -3,3 +3,6 @@
 # comet animation live 
 ## sketch.js
 ![comet](https://user-images.githubusercontent.com/109500059/215042468-6bf1e246-7e46-4e5c-aef8-8d19b0f5cb96.png)
+# smoke effect live 
+![smoke](https://user-images.githubusercontent.com/109500059/215048413-b2a25e38-beb3-4887-b750-7aa0d6743b52.png)
+
