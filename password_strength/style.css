@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(218, 218, 218);
+}
+.container
+{
+    position: relative;
+    border-radius: 5px;
+    width: 400px;
+    padding: 30px;
+    background: rgb(116, 116, 116);
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    border: 1px solid #111;
+    gap: 10px;
+    padding-bottom: 70px;
+    -webkit-box-reflect: below 1px linear-gradient
+     (transparent,transparent,#005);
+}
+.container h2 
+{
+    color: rgb(210, 210, 210);
+    font-weight: 500;
+}
+.container .inputBox
+{
+    position: relative;
+    width: 100%;
+}
+.container .inputBox input
+{
+    position: relative;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.1em;
+
+}
+.container .strengthMeter
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: rgb(95, 95, 95);
+
+}
+.container .strengthMeter::before
+{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transform: 0.5s;
+    background: red;
+}
+.show
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #333;
+    border: 6px solid #222;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container.weak .strengthMeter::before
+{
+    width: 10%;
+    background: #f00;
+    filter:  drop-shadow(0 0 5px #f00)drop-shadow(0 0 5px #f00);
+}
+.container.medium .strengthMeter::before
+{
+    width: 66.6%;
+    background: rgb(240, 255, 27);
+    filter:  drop-shadow(0 0 5px rgb(240, 255, 27))drop-shadow(0 0 5px rgb(240, 255, 27));
+}
+.container.strong .strengthMeter::before
+{
+    width: 100%;
+    background: rgb(0, 255, 76);
+    filter:  drop-shadow(0 0 5px  rgb(0, 255, 76))drop-shadow(0 0 5px rgb(0, 255, 76));
+}
+.show::before
+{
+    content: 'Show';
+    font-size: .6em;
+    color: #fff;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+.show.hide::before
+{
+    content: 'Hide';
+}
