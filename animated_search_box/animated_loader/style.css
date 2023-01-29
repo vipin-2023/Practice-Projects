@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: #664AFF;
+}
+
+.search-box {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.search-box.active {
+    height: 60px;
+    width: 350px;
+    position: relative;
+}
+
+.search-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 0 60px 0 20px;
+    outline: none;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.search-box input.active 
+{
+    opacity: 1;
+}
+.search-box .search-btn {
+    height: 50px;
+    width: 50px;
+    color: #664AFF;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-110%);
+    right: 0px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.search-box .search-btn.active {
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    background: #664AFF;
+    right: 5px;
+    line-height: 50px;
+   
+}
+
+.search-box .cancel-btn {
+    position: absolute;
+    transform: translateY(-110%);
+    top: 95%;
+    right: 20px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all 0.5s 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.search-box .cancel-btn.active 
+{
+    right: -40px;
+}
+.search-box .search-data
+{
+    text-align: center;
+    padding-top: 7px;
+    color: #fff;
+    word-wrap: break-word;
+}
+.search-box .search-data.active 
+{
+    display: none;
+}
