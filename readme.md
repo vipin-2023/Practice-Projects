@@ -1,6 +1,10 @@
 # Each folder containing single projects 
 # smoke effect live 
 ![smoke](https://user-images.githubusercontent.com/109500059/215048413-b2a25e38-beb3-4887-b750-7aa0d6743b52.png)
+# animated nav menu
+![Group 21 (1)](https://user-images.githubusercontent.com/109500059/215578379-65fd8e5b-2152-4642-afa9-abab03905715.png)
+# ios spiner
+![Group 22 (2)](https://user-images.githubusercontent.com/109500059/215578462-b4e3469c-e5f0-4ac0-b0e5-91b54dbdbdf1.png)
 # animated bg
 ![bg_animation](https://user-images.githubusercontent.com/109500059/215256217-fa4ae670-323a-451b-aa8b-207196c5ad70.png)
 # glowing gradient live 
