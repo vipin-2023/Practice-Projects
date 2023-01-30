@@ -1,0 +1,216 @@
+:root {
+    --speed:.1;
+    
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    height: 100px;
+    width: 1px;
+
+    position: absolute;
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(-0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.container:nth-child(2) {
+    animation-delay: .3s;
+}
+
+.container:nth-child(3) {
+    animation-delay: .6s;
+}
+
+.container:nth-child(4) {
+    animation-delay: .9s;
+}
+
+.container:nth-child(5) {
+    animation-delay: 1.2s;
+}
+
+.container:nth-child(6) {
+    animation-delay: 1.5s;
+}
+
+.container:nth-child(7) {
+    animation-delay: 1.8s;
+}
+
+.container:nth-child(8) {
+    animation-delay: 2.1s;
+}
+
+.container:nth-child(9) {
+    animation-delay: 2.4s;
+}
+
+.container:nth-child(10) {
+    animation-delay: 2.7s;
+}
+
+
+.container:nth-child(11) {
+    animation-delay: 3s;
+}
+
+.container:nth-child(12) {
+    animation-delay: 3.3s;
+}
+
+.container:nth-child(13) {
+    animation-delay: 3.6s;
+}
+
+.container:nth-child(14) {
+    animation-delay: 3.9s;
+}
+
+.container:nth-child(15) {
+    animation-delay: 4.2s;
+}
+
+.container:nth-child(16) {
+    animation-delay: 4.5s;
+}
+
+.container:nth-child(17) {
+    animation-delay: 4.8s;
+}
+
+.container:nth-child(18) {
+    animation-delay: 5.1s;
+}
+
+.container:nth-child(19) {
+    animation-delay: 5.4s;
+}
+
+.container:nth-child(20) {
+    animation-delay: 5.7s;
+}
+
+.container .circle {
+    height: 20px;
+    width: 5px;
+    border-radius: 20%;
+    background: black;
+    animation: dots 6s linear infinite;
+
+}
+
+@keyframes dots {
+   0%,66.6% {
+        background: black;
+    }
+
+    33.3% {
+        background: rgb(248, 248, 248);
+    }
+}
+
+.container:nth-child(1) .circle {
+    animation-delay: var(--speed*1)s;
+}
+
+.container:nth-child(2) .circle {
+    animation-delay: var(--speed*2)s;
+}
+
+.container:nth-child(3) .circle {
+    animation-delay: var(--speed*3)s;
+}
+
+.container:nth-child(4) .circle {
+    animation-delay: var(--speed*4)s;
+}
+
+.container:nth-child(5) .circle {
+    animation-delay: var(--speed*5)s;
+}
+
+.container:nth-child(6) .circle {
+    animation-delay: var(--speed*6)s;
+}
+
+.container:nth-child(7) .circle {
+    animation-delay: var(--speed*7)s;
+}
+
+.container:nth-child(8) .circle {
+    animation-delay: var(--speed*8)s;
+}
+
+.container:nth-child(9) .circle {
+    animation-delay: var(--speed*9)s;
+}
+
+.container:nth-child(10) .circle {
+    animation-delay: var(--speed*10)s;
+}
+
+.container:nth-child(11) {
+    animation-delay: var(--speed*11)s;
+}
+
+.container:nth-child(12) {
+    animation-delay: var(--speed*12)s;
+}
+
+.container:nth-child(13) {
+    animation-delay: var(--speed*13)s;
+}
+
+.container:nth-child(14) {
+    animation-delay: var(--speed*14)s;
+}
+
+.container:nth-child(15) {
+    animation-delay: var(--speed*15)s;
+}
+
+.container:nth-child(16) {
+    animation-delay: var(--speed*16)s;
+}
+
+.container:nth-child(17) {
+    animation-delay: var(--speed*17)s;
+}
+
+.container:nth-child(18) {
+    animation-delay: var(--speed*18)s;
+}
+
+.container:nth-child(19) {
+    animation-delay: var(--speed*19)s;
+}
+
+.container:nth-child(20) {
+    animation-delay: var(--speed*20)s;
+}
