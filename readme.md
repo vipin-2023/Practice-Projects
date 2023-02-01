@@ -22,5 +22,7 @@
 ![Group 19 (1)](https://user-images.githubusercontent.com/109500059/215318460-7bafb37e-a06d-4abf-9494-0c3d44e78e55.png)
 # wave loader
 ![Group 27](https://user-images.githubusercontent.com/109500059/215999409-c1d64c73-6ebc-4e19-867b-b507918f359a.png)
+# typing curser loader animation
+![Screenshot_2023-02-01_19-30-42](https://user-images.githubusercontent.com/109500059/216063825-6d03db6a-2219-4d64-a5d9-8cd5f10e2e5c.png)
 
 
