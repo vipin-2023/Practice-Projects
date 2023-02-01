@@ -20,5 +20,7 @@
 ![Screenshot_2023-01-29_13-04-57](https://user-images.githubusercontent.com/109500059/215312272-c8629568-c6e1-4b30-a2fd-678a75b92b6a.png)
 # animated search box
 ![Group 19 (1)](https://user-images.githubusercontent.com/109500059/215318460-7bafb37e-a06d-4abf-9494-0c3d44e78e55.png)
+# wave loader
+![Group 27](https://user-images.githubusercontent.com/109500059/215999409-c1d64c73-6ebc-4e19-867b-b507918f359a.png)
 
 
