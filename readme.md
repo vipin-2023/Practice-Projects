@@ -11,7 +11,7 @@
 ![bg_animation](https://user-images.githubusercontent.com/109500059/215256217-fa4ae670-323a-451b-aa8b-207196c5ad70.png)
 # glowing gradient live 
  ![Screenshot_2023-01-27_13-02-25](https://user-images.githubusercontent.com/109500059/215032961-a2913206-228a-4afb-8a08-12e907ad2487.png)
- # glowing gradient live 
+# glowing gradient live 
  ![Group 18](https://user-images.githubusercontent.com/109500059/215262677-4c2daa9a-3cd8-4f3f-bb1d-ee15d6f71c70.png)
 # comet animation live 
 ## sketch.js
@@ -24,5 +24,6 @@
 ![Group 27](https://user-images.githubusercontent.com/109500059/215999409-c1d64c73-6ebc-4e19-867b-b507918f359a.png)
 # typing curser loader animation
 ![Screenshot_2023-02-01_19-30-42](https://user-images.githubusercontent.com/109500059/216063825-6d03db6a-2219-4d64-a5d9-8cd5f10e2e5c.png)
-
+# simple loader animation
+![Screenshot_2023-02-02_11-19-07](https://user-images.githubusercontent.com/109500059/216242679-301685fa-e5ad-4c92-93f3-714f178b962a.png)
 
