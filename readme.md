@@ -26,4 +26,6 @@
 ![Screenshot_2023-02-01_19-30-42](https://user-images.githubusercontent.com/109500059/216063825-6d03db6a-2219-4d64-a5d9-8cd5f10e2e5c.png)
 # simple loader animation
 ![Screenshot_2023-02-02_11-19-07](https://user-images.githubusercontent.com/109500059/216242679-301685fa-e5ad-4c92-93f3-714f178b962a.png)
+# clipboard copy 
+![Screenshots_2023-01-31_21-03-09](https://user-images.githubusercontent.com/109500059/216538356-e1798724-5436-4101-b542-fb5360f98a24.png)
 
