@@ -5,6 +5,8 @@
 ![smoke](https://user-images.githubusercontent.com/109500059/215048413-b2a25e38-beb3-4887-b750-7aa0d6743b52.png)
 # animated nav menu
 ![Group 21 (1)](https://user-images.githubusercontent.com/109500059/215578379-65fd8e5b-2152-4642-afa9-abab03905715.png)
+# drag and place 
+![Screenshot_2023-02-23_23-41-33](https://user-images.githubusercontent.com/109500059/220995324-174c42d9-ff8e-47a3-ab6a-5b8ec15e0d9e.png)
 # ios spiner
 ![Group 22 (2)](https://user-images.githubusercontent.com/109500059/215578462-b4e3469c-e5f0-4ac0-b0e5-91b54dbdbdf1.png)
 # animated bg
