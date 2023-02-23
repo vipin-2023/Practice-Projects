@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #595DBB;
+}
+.sortable-list
+{
+    background: #fff;
+    width: 445px;
+    padding: 30px 25px 20px;
+    
+}
+.sortable-list .item 
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    padding: 10px 13px;
+    justify-content: space-between;
+}
+.item .details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .details .img
+{
+    width: 43px;
+    height: 43px;
+    margin-right: 12px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.item .icons
+{
+    color: rgb(225, 225, 225);
+    opacity: .8;
+    height: 17px;
+    width: 16px;
+}
+.item .details span 
+{
+    font-size: 1.1rem;
+}
+.item.dragging :where(.details,.icons)
+{
+    opacity: 0;
+}

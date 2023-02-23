@@ -1,0 +1,37 @@
+const sortableList = document.querySelector(".sortable-list");
+
+
+const items = document.querySelectorAll(".item");
+
+
+items.forEach(item => {
+    console.log("9")
+
+    item.addEventListener("dragstart",()=>{
+        
+        setTimeout(()=>item.classList.add("dragging"),0)
+    })
+    item.addEventListener("dragend",()=>{
+        item.classList.remove('dragging')
+    })
+})
+
+const initSortablelist = (e)=>{
+
+   
+
+    e.preventDefault();
+    const draggingItem = sortableList.querySelector(".dragging")
+
+    const siblings = [...sortableList.querySelectorAll(".item:not(.dragging)")]
+
+    let nextSibling = siblings.find(sibling=>{
+        return e.clientY <= sibling.offsetTop + sibling.offsetHeight /2;
+    })
+    console.log(nextSibling)
+    sortableList.insertBefore(draggingItem,nextSibling);
+}
+
+
+
+sortableList.addEventListener("dragover",initSortablelist);
