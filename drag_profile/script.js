@@ -1,11 +1,9 @@
 const sortableList = document.querySelector(".sortable-list");
 
-
 const items = document.querySelectorAll(".item");
 
-
 items.forEach(item => {
-    console.log("9")
+    
 
     item.addEventListener("dragstart",()=>{
         
@@ -17,9 +15,6 @@ items.forEach(item => {
 })
 
 const initSortablelist = (e)=>{
-
-   
-
     e.preventDefault();
     const draggingItem = sortableList.querySelector(".dragging")
 
@@ -31,7 +26,5 @@ const initSortablelist = (e)=>{
     console.log(nextSibling)
     sortableList.insertBefore(draggingItem,nextSibling);
 }
-
-
 
 sortableList.addEventListener("dragover",initSortablelist);
