@@ -8,6 +8,7 @@ const copyBtn = document.querySelector(".copy");
 window.addEventListener('load', function () {
     generateGradient()
 })
+
 const copyCode=()=>{
     navigator.clipboard.writeText(textArea.value);
     copyBtn.innerHTML = "Code Copied"
@@ -15,6 +16,7 @@ const copyCode=()=>{
         copyBtn.innerHTML = "Copy Code"
      }, 1000);
 }
+
 const getRandomColor = ()=>{
     const randomHex = Math.floor(Math.random()*0xffffff).toString(16);
     return `#${randomHex}`
@@ -28,8 +30,9 @@ const generateGradient = (isRandom) => {
     }
   const gradient = `linear-gradient(${selectMenu.value},${colorInputs[1].value},${colorInputs[0].value})`;
   gradientBox.style.background = gradient;
-  textArea.value =`background:${gradient};`;
+  textArea.value =`background : ${gradient};`;
 };
+
 colorInputs.forEach((input) => {
   input.addEventListener("input", ()=> generateGradient(false));
 });
