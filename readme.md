@@ -15,6 +15,8 @@
 ![bg_animation](https://user-images.githubusercontent.com/109500059/215256217-fa4ae670-323a-451b-aa8b-207196c5ad70.png)
 # glowing gradient live 
  ![Screenshot_2023-01-27_13-02-25](https://user-images.githubusercontent.com/109500059/215032961-a2913206-228a-4afb-8a08-12e907ad2487.png)
+# animated card
+![Group 6 (1)](https://user-images.githubusercontent.com/109500059/228628795-dae520c2-ac4c-40f1-a7f6-f1fbd48d37c1.png)
 # glowing gradient live 
  ![Group 18](https://user-images.githubusercontent.com/109500059/215262677-4c2daa9a-3cd8-4f3f-bb1d-ee15d6f71c70.png)
 # comet animation live 
