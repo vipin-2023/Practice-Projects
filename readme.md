@@ -24,6 +24,8 @@
 ![comet](https://user-images.githubusercontent.com/109500059/215042468-6bf1e246-7e46-4e5c-aef8-8d19b0f5cb96.png)
 # tabbar view
 ![Screenshot_2023-02-10_15-32-16](https://user-images.githubusercontent.com/109500059/218063294-f513f252-6e87-4176-80a2-391e51da85e7.png)
+# text to speech
+![Screenshot_2023-04-27_15-46-34](https://user-images.githubusercontent.com/109500059/234836675-17d669f8-89ee-46d2-bedf-8588d131776c.png)
 # animated loader
 ![Screenshot_2023-01-29_13-04-57](https://user-images.githubusercontent.com/109500059/215312272-c8629568-c6e1-4b30-a2fd-678a75b92b6a.png)
 # animated search box
